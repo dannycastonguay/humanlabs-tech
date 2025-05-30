@@ -1,4 +1,5 @@
 
+
 # Human Labs Tech
 
 Building an open-source foundation model for human health through advanced AI and global collaboration.
@@ -44,8 +45,9 @@ For more detailed information about our approach and methodology, download our [
 
 ## License
 
-This project is open-source and available under the appropriate license terms.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 © 2024 Human Labs Tech. Building the future of healthcare through open-source AI.
+
