@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ArrowDown, Github, LinkedIn, Twitter } from "lucide-react";
+import HeroSection from "@/components/HeroSection";
+import ProjectVision from "@/components/ProjectVision";
+import ProjectTimeline from "@/components/ProjectTimeline";
+import FundingSection from "@/components/FundingSection";
+import GetInvolved from "@/components/GetInvolved";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <HeroSection scrollToSection={scrollToSection} />
+      <ProjectVision />
+      <ProjectTimeline />
+      <FundingSection />
+      <GetInvolved />
+      <Footer />
     </div>
   );
 };
