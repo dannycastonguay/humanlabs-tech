@@ -57,7 +57,7 @@ const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
               size="lg" 
               variant="secondary" 
               className="bg-teal-100 hover:bg-teal-200 text-teal-800 border-teal-300 px-6 py-3 text-base font-medium transition-all duration-300 hover:scale-105"
-              onClick={() => window.open('https://github.com/humanlabs-tech/humanlabs-tech/blob/main/docs/Human-Labs-Tech-Whitepaper.pdf', '_blank')}
+              onClick={() => window.open('https://github.com/dannycastonguay/humanlabs-tech/blob/main/docs/humanlabs.tech.pdf', '_blank')}
             >
               <Download className="mr-2 h-4 w-4" />
               Download White Paper
