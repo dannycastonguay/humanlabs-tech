@@ -1,5 +1,5 @@
 
-import { Github, LinkedIn, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -56,7 +56,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors"
               >
-                <LinkedIn className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </a>
               <a 
                 href="https://twitter.com/humanlabstech" 
