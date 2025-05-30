@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, ArrowDown } from "lucide-react";
+import { Github, ArrowDown, Download } from "lucide-react";
 
 interface HeroSectionProps {
   scrollToSection: (id: string) => void;
@@ -32,7 +32,7 @@ const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
             Creating a digital twin powered by continuous data and AI to transform preventive healthcare.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button 
               size="lg" 
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
@@ -49,6 +49,18 @@ const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
             >
               <Github className="mr-2 h-5 w-5" />
               Explore on GitHub
+            </Button>
+          </div>
+
+          <div className="flex justify-center">
+            <Button 
+              size="lg" 
+              variant="secondary" 
+              className="bg-teal-100 hover:bg-teal-200 text-teal-800 border-teal-300 px-6 py-3 text-base font-medium transition-all duration-300 hover:scale-105"
+              onClick={() => window.open('https://github.com/humanlabs-tech/humanlabs-tech/blob/main/docs/Human-Labs-Tech-Whitepaper.pdf', '_blank')}
+            >
+              <Download className="mr-2 h-4 w-4" />
+              Download White Paper
             </Button>
           </div>
         </div>
