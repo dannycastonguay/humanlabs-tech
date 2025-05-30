@@ -43,7 +43,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/humanlabs-tech" 
+                href="https://github.com/dannycastonguay/humanlabs-tech" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors"

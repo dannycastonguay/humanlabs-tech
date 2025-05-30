@@ -45,7 +45,7 @@ const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
               size="lg" 
               variant="outline" 
               className="border-slate-300 text-slate-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
-              onClick={() => window.open('https://github.com/humanlabs-tech', '_blank')}
+              onClick={() => window.open('https://github.com/dannycastonguay/humanlabs-tech', '_blank')}
             >
               <Github className="mr-2 h-5 w-5" />
               Explore on GitHub
