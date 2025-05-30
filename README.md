@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
 
-## Project info
+# Human Labs Tech
 
-**URL**: https://lovable.dev/projects/89a33769-e032-40e0-b4b2-4bd98b726057
+Building an open-source foundation model for human health through advanced AI and global collaboration.
 
-## How can I edit this code?
+## About the Project
 
-There are several ways of editing your application.
+Human Labs Tech is developing a revolutionary digital twin powered by continuous data and AI to transform preventive healthcare. Our mission is to create an open-source foundation that will democratize access to advanced health insights and enable personalized medicine at scale.
 
-**Use Lovable**
+## Vision
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/89a33769-e032-40e0-b4b2-4bd98b726057) and start prompting.
+We're building the future of healthcare through:
+- **Open-source AI models** for human health
+- **Digital twin technology** that creates personalized health profiles
+- **Continuous data integration** from multiple health sources
+- **Global collaboration** among researchers, developers, and healthcare professionals
 
-Changes made via Lovable will be committed automatically to this repo.
+## Key Features
 
-**Use your preferred IDE**
+- Foundation model for human health data
+- Real-time health monitoring and analysis
+- Predictive healthcare insights
+- Open-source development approach
+- Community-driven innovation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Get Involved
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+We welcome contributions from:
+- **Researchers** - Help advance the science
+- **Developers** - Build the technology stack
+- **Healthcare professionals** - Provide domain expertise
+- **Data scientists** - Improve our models
+- **Community members** - Spread awareness and feedback
 
-Follow these steps:
+## Contact
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **General Inquiries**: hello@humanlabs.tech
+- **Team**: team@humanlabs.tech
+- **Investment**: invest@humanlabs.tech
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Documentation
 
-# Step 3: Install the necessary dependencies.
-npm i
+For more detailed information about our approach and methodology, download our [white paper](https://github.com/dannycastonguay/humanlabs-tech/blob/main/docs/humanlabs.tech.pdf).
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## License
 
-**Edit a file directly in GitHub**
+This project is open-source and available under the appropriate license terms.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/89a33769-e032-40e0-b4b2-4bd98b726057) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2024 Human Labs Tech. Building the future of healthcare through open-source AI.
